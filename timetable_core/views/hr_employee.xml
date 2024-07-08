@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="timetable_employee_form" model="ir.ui.view">
+        <field name="name">timetable.employee.form</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page name="timetable" string="Timetables">
+                    <group>
+                        <field name="schedule_id" options="{'no_create_edit': True, 'no_quick_create': True}"/>
+                    </group>
+                    <field name="worktime_ids" context="{'default_employee_id': id}">
+                        <tree editable="bottom">
+                            <field name="employee_id" column_invisible="1"/>
+                            <field name="period"/>
+                            <field name="d1" widget="float_time"/>
+                            <field name="d2" widget="float_time"/>
+                            <field name="d3" widget="float_time"/>
+                            <field name="d4" widget="float_time"/>
+                            <field name="d5" widget="float_time"/>
+                            <field name="d6" widget="float_time"/>
+                            <field name="d7" widget="float_time"/>
+                            <field name="d8" widget="float_time"/>
+                            <field name="d9" widget="float_time"/>
+                            <field name="d10" widget="float_time"/>
+                            <field name="d11" widget="float_time"/>
+                            <field name="d12" widget="float_time"/>
+                            <field name="d13" widget="float_time"/>
+                            <field name="d14" widget="float_time"/>
+                            <field name="d15" widget="float_time"/>
+                            <field name="d16" widget="float_time"/>
+                            <field name="d17" widget="float_time"/>
+                            <field name="d18" widget="float_time"/>
+                            <field name="d19" widget="float_time"/>
+                            <field name="d20" widget="float_time"/>
+                            <field name="d21" widget="float_time"/>
+                            <field name="d22" widget="float_time"/>
+                            <field name="d23" widget="float_time"/>
+                            <field name="d24" widget="float_time"/>
+                            <field name="d25" widget="float_time"/>
+                            <field name="d26" widget="float_time"/>
+                            <field name="d27" widget="float_time"/>
+                            <field name="d28" widget="float_time"/>
+                            <field name="d29" widget="float_time"/>
+                            <field name="d30" widget="float_time"/>
+                            <field name="d31" widget="float_time"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

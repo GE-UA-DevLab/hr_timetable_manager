@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="schedule_list" model="ir.ui.view">
+        <field name="name">Timetable Schedule list</field>
+        <field name="model">timetable.schedule</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name"/>
+                <field name="d1"/>
+                <field name="d2"/>
+                <field name="d3"/>
+                <field name="d4"/>
+                <field name="d5"/>
+                <field name="d6"/>
+                <field name="d7"/>
+                <field name="d8"/>
+                <field name="d9"/>
+                <field name="d10"/>
+                <field name="d11"/>
+                <field name="d12"/>
+                <field name="d13"/>
+                <field name="d14"/>
+                <field name="d15"/>
+                <field name="d16"/>
+                <field name="d17"/>
+                <field name="d18"/>
+                <field name="d19"/>
+                <field name="d20"/>
+                <field name="d21"/>
+                <field name="d22"/>
+                <field name="d23"/>
+                <field name="d24"/>
+                <field name="d25"/>
+                <field name="d26"/>
+                <field name="d27"/>
+                <field name="d28"/>
+                <field name="d29"/>
+                <field name="d30"/>
+                <field name="d31"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="schedule_search" model="ir.ui.view">
+        <field name="name">Timetable Schedule search</field>
+        <field name="model">timetable.schedule</field>
+        <field name="arch" type="xml">
+            <search string="Timetable Schedule">
+                <field name="name" string="Name"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="schedule_action" model="ir.actions.act_window">
+        <field name="name">Timetable Schedule</field>
+        <field name="res_model">timetable.schedule</field>
+        <field name="search_view_id" ref="schedule_search"/>
+        <field name="view_id" ref="schedule_list"/>
+    </record>
+
+    <menuitem
+        id="schedule_menu"
+        name="Schedule"
+        parent="hr.menu_hr_root"
+        action="schedule_action"
+        groups="hr.group_hr_manager,hr.group_hr_user"
+        sequence="200"/>
+</odoo>
