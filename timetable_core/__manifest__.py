@@ -16,4 +16,10 @@
         'views/schedule.xml',
         'data/defaults_schedule.xml',
     ],
+
+    'assets': {
+        'web.assets_backend': [
+            'timetable_core/static/src/css/bg_color_timetable.css',
+        ],
+    },
 }

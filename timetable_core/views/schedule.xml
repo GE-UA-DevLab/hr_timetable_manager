@@ -6,37 +6,37 @@
         <field name="arch" type="xml">
             <tree editable="bottom">
                 <field name="name"/>
-                <field name="d1"/>
-                <field name="d2"/>
-                <field name="d3"/>
-                <field name="d4"/>
-                <field name="d5"/>
-                <field name="d6"/>
-                <field name="d7"/>
-                <field name="d8"/>
-                <field name="d9"/>
-                <field name="d10"/>
-                <field name="d11"/>
-                <field name="d12"/>
-                <field name="d13"/>
-                <field name="d14"/>
-                <field name="d15"/>
-                <field name="d16"/>
-                <field name="d17"/>
-                <field name="d18"/>
-                <field name="d19"/>
-                <field name="d20"/>
-                <field name="d21"/>
-                <field name="d22"/>
-                <field name="d23"/>
-                <field name="d24"/>
-                <field name="d25"/>
-                <field name="d26"/>
-                <field name="d27"/>
-                <field name="d28"/>
-                <field name="d29"/>
-                <field name="d30"/>
-                <field name="d31"/>
+                <field name="d1" widget="bg_color_timetable"/>
+                <field name="d2" widget="bg_color_timetable"/>
+                <field name="d3" widget="bg_color_timetable"/>
+                <field name="d4" widget="bg_color_timetable"/>
+                <field name="d5" widget="bg_color_timetable"/>
+                <field name="d6" widget="bg_color_timetable"/>
+                <field name="d7" widget="bg_color_timetable"/>
+                <field name="d8" widget="bg_color_timetable"/>
+                <field name="d9" widget="bg_color_timetable"/>
+                <field name="d10" widget="bg_color_timetable"/>
+                <field name="d11" widget="bg_color_timetable"/>
+                <field name="d12" widget="bg_color_timetable"/>
+                <field name="d13" widget="bg_color_timetable"/>
+                <field name="d14" widget="bg_color_timetable"/>
+                <field name="d15" widget="bg_color_timetable"/>
+                <field name="d16" widget="bg_color_timetable"/>
+                <field name="d17" widget="bg_color_timetable"/>
+                <field name="d18" widget="bg_color_timetable"/>
+                <field name="d19" widget="bg_color_timetable"/>
+                <field name="d20" widget="bg_color_timetable"/>
+                <field name="d21" widget="bg_color_timetable"/>
+                <field name="d22" widget="bg_color_timetable"/>
+                <field name="d23" widget="bg_color_timetable"/>
+                <field name="d24" widget="bg_color_timetable"/>
+                <field name="d25" widget="bg_color_timetable"/>
+                <field name="d26" widget="bg_color_timetable"/>
+                <field name="d27" widget="bg_color_timetable"/>
+                <field name="d28" widget="bg_color_timetable"/>
+                <field name="d29" widget="bg_color_timetable"/>
+                <field name="d30" widget="bg_color_timetable"/>
+                <field name="d31" widget="bg_color_timetable"/>
             </tree>
         </field>
     </record>

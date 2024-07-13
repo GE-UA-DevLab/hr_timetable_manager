@@ -1,0 +1,11 @@
+.o_field_cell.o_bg_color_timetable_cell[data-tooltip="D"] {
+    background-color:cyan;
+}
+
+.o_field_cell.o_bg_color_timetable_cell[data-tooltip="W"] {
+    background-color:magenta;
+}
+
+.o_field_cell.o_bg_color_timetable_cell[data-tooltip=""] {
+    background-color:grey;
+}
