@@ -1,11 +1,16 @@
-.o_field_cell.o_bg_color_timetable_cell[data-tooltip="D"] {
+.o_field_cell.o_bg_color_timetable_cell[data-tooltip="D"],
+.o_field_cell:has(>.text-bg-timetable-d)
+{
     background-color:cyan;
 }
 
-.o_field_cell.o_bg_color_timetable_cell[data-tooltip="W"] {
+.o_field_cell.o_bg_color_timetable_cell[data-tooltip="W"],
+.o_field_cell:has(>.text-bg-timetable-w)
+{
     background-color:magenta;
 }
 
-.o_field_cell.o_bg_color_timetable_cell[data-tooltip=""] {
+.o_field_cell.o_bg_color_timetable_cell[data-tooltip=""],
+.o_field_cell:has(>.text-bg-timetable-f){
     background-color:grey;
 }

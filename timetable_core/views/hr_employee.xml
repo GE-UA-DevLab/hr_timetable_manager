@@ -14,37 +14,70 @@
                         <tree editable="bottom">
                             <field name="employee_id" column_invisible="1"/>
                             <field name="period"/>
-                            <field name="d1" widget="float_time"/>
-                            <field name="d2" widget="float_time"/>
-                            <field name="d3" widget="float_time"/>
-                            <field name="d4" widget="float_time"/>
-                            <field name="d5" widget="float_time"/>
-                            <field name="d6" widget="float_time"/>
-                            <field name="d7" widget="float_time"/>
-                            <field name="d8" widget="float_time"/>
-                            <field name="d9" widget="float_time"/>
-                            <field name="d10" widget="float_time"/>
-                            <field name="d11" widget="float_time"/>
-                            <field name="d12" widget="float_time"/>
-                            <field name="d13" widget="float_time"/>
-                            <field name="d14" widget="float_time"/>
-                            <field name="d15" widget="float_time"/>
-                            <field name="d16" widget="float_time"/>
-                            <field name="d17" widget="float_time"/>
-                            <field name="d18" widget="float_time"/>
-                            <field name="d19" widget="float_time"/>
-                            <field name="d20" widget="float_time"/>
-                            <field name="d21" widget="float_time"/>
-                            <field name="d22" widget="float_time"/>
-                            <field name="d23" widget="float_time"/>
-                            <field name="d24" widget="float_time"/>
-                            <field name="d25" widget="float_time"/>
-                            <field name="d26" widget="float_time"/>
-                            <field name="d27" widget="float_time"/>
-                            <field name="d28" widget="float_time"/>
-                            <field name="d29" widget="float_time"/>
-                            <field name="d30" widget="float_time"/>
-                            <field name="d31" widget="float_time"/>
+
+                            <field name="schedule_d1" column_invisible="1"/>
+                            <field name="schedule_d2" column_invisible="1"/>
+                            <field name="schedule_d3" column_invisible="1"/>
+                            <field name="schedule_d4" column_invisible="1"/>
+                            <field name="schedule_d5" column_invisible="1"/>
+                            <field name="schedule_d6" column_invisible="1"/>
+                            <field name="schedule_d7" column_invisible="1"/>
+                            <field name="schedule_d8" column_invisible="1"/>
+                            <field name="schedule_d9" column_invisible="1"/>
+                            <field name="schedule_d10" column_invisible="1"/>
+                            <field name="schedule_d11" column_invisible="1"/>
+                            <field name="schedule_d12" column_invisible="1"/>
+                            <field name="schedule_d13" column_invisible="1"/>
+                            <field name="schedule_d14" column_invisible="1"/>
+                            <field name="schedule_d15" column_invisible="1"/>
+                            <field name="schedule_d16" column_invisible="1"/>
+                            <field name="schedule_d17" column_invisible="1"/>
+                            <field name="schedule_d18" column_invisible="1"/>
+                            <field name="schedule_d19" column_invisible="1"/>
+                            <field name="schedule_d20" column_invisible="1"/>
+                            <field name="schedule_d21" column_invisible="1"/>
+                            <field name="schedule_d22" column_invisible="1"/>
+                            <field name="schedule_d23" column_invisible="1"/>
+                            <field name="schedule_d24" column_invisible="1"/>
+                            <field name="schedule_d25" column_invisible="1"/>
+                            <field name="schedule_d26" column_invisible="1"/>
+                            <field name="schedule_d27" column_invisible="1"/>
+                            <field name="schedule_d28" column_invisible="1"/>
+                            <field name="schedule_d29" column_invisible="1"/>
+                            <field name="schedule_d30" column_invisible="1"/>
+                            <field name="schedule_d31" column_invisible="1"/>
+
+                            <field name="d1" widget="float_time" decoration-bg-timetable-d="schedule_d1 == 'D'" decoration-bg-timetable-w="schedule_d1 == 'W'" decoration-bg-timetable-f="schedule_d1 == False"/>
+                            <field name="d2" widget="float_time" decoration-bg-timetable-d="schedule_d2 == 'D'" decoration-bg-timetable-w="schedule_d2 == 'W'" decoration-bg-timetable-f="schedule_d2 == False"/>
+                            <field name="d3" widget="float_time" decoration-bg-timetable-d="schedule_d3 == 'D'" decoration-bg-timetable-w="schedule_d3 == 'W'" decoration-bg-timetable-f="schedule_d3 == False"/>
+                            <field name="d4" widget="float_time" decoration-bg-timetable-d="schedule_d4 == 'D'" decoration-bg-timetable-w="schedule_d4 == 'W'" decoration-bg-timetable-f="schedule_d4 == False"/>
+                            <field name="d5" widget="float_time" decoration-bg-timetable-d="schedule_d5 == 'D'" decoration-bg-timetable-w="schedule_d5 == 'W'" decoration-bg-timetable-f="schedule_d5 == False"/>
+                            <field name="d6" widget="float_time" decoration-bg-timetable-d="schedule_d6 == 'D'" decoration-bg-timetable-w="schedule_d6 == 'W'" decoration-bg-timetable-f="schedule_d6 == False"/>
+                            <field name="d7" widget="float_time" decoration-bg-timetable-d="schedule_d7 == 'D'" decoration-bg-timetable-w="schedule_d7 == 'W'" decoration-bg-timetable-f="schedule_d7 == False"/>
+                            <field name="d8" widget="float_time" decoration-bg-timetable-d="schedule_d8 == 'D'" decoration-bg-timetable-w="schedule_d8 == 'W'" decoration-bg-timetable-f="schedule_d8 == False"/>
+                            <field name="d9" widget="float_time" decoration-bg-timetable-d="schedule_d9 == 'D'" decoration-bg-timetable-w="schedule_d9 == 'W'" decoration-bg-timetable-f="schedule_d9 == False"/>
+                            <field name="d10" widget="float_time" decoration-bg-timetable-d="schedule_d10 == 'D'" decoration-bg-timetable-w="schedule_d10 == 'W'" decoration-bg-timetable-f="schedule_d10 == False"/>
+                            <field name="d11" widget="float_time" decoration-bg-timetable-d="schedule_d11 == 'D'" decoration-bg-timetable-w="schedule_d11 == 'W'" decoration-bg-timetable-f="schedule_d11 == False"/>
+                            <field name="d12" widget="float_time" decoration-bg-timetable-d="schedule_d12 == 'D'" decoration-bg-timetable-w="schedule_d12 == 'W'" decoration-bg-timetable-f="schedule_d12 == False"/>
+                            <field name="d13" widget="float_time" decoration-bg-timetable-d="schedule_d13 == 'D'" decoration-bg-timetable-w="schedule_d13 == 'W'" decoration-bg-timetable-f="schedule_d13 == False"/>
+                            <field name="d14" widget="float_time" decoration-bg-timetable-d="schedule_d14 == 'D'" decoration-bg-timetable-w="schedule_d14 == 'W'" decoration-bg-timetable-f="schedule_d14 == False"/>
+                            <field name="d15" widget="float_time" decoration-bg-timetable-d="schedule_d15 == 'D'" decoration-bg-timetable-w="schedule_d15 == 'W'" decoration-bg-timetable-f="schedule_d15 == False"/>
+                            <field name="d16" widget="float_time" decoration-bg-timetable-d="schedule_d16 == 'D'" decoration-bg-timetable-w="schedule_d16 == 'W'" decoration-bg-timetable-f="schedule_d16 == False"/>
+                            <field name="d17" widget="float_time" decoration-bg-timetable-d="schedule_d17 == 'D'" decoration-bg-timetable-w="schedule_d17 == 'W'" decoration-bg-timetable-f="schedule_d17 == False"/>
+                            <field name="d18" widget="float_time" decoration-bg-timetable-d="schedule_d18 == 'D'" decoration-bg-timetable-w="schedule_d18 == 'W'" decoration-bg-timetable-f="schedule_d18 == False"/>
+                            <field name="d19" widget="float_time" decoration-bg-timetable-d="schedule_d19 == 'D'" decoration-bg-timetable-w="schedule_d19 == 'W'" decoration-bg-timetable-f="schedule_d19 == False"/>
+                            <field name="d20" widget="float_time" decoration-bg-timetable-d="schedule_d20 == 'D'" decoration-bg-timetable-w="schedule_d20 == 'W'" decoration-bg-timetable-f="schedule_d20 == False"/>
+                            <field name="d21" widget="float_time" decoration-bg-timetable-d="schedule_d21 == 'D'" decoration-bg-timetable-w="schedule_d21 == 'W'" decoration-bg-timetable-f="schedule_d21 == False"/>
+                            <field name="d22" widget="float_time" decoration-bg-timetable-d="schedule_d22 == 'D'" decoration-bg-timetable-w="schedule_d22 == 'W'" decoration-bg-timetable-f="schedule_d22 == False"/>
+                            <field name="d23" widget="float_time" decoration-bg-timetable-d="schedule_d23 == 'D'" decoration-bg-timetable-w="schedule_d23 == 'W'" decoration-bg-timetable-f="schedule_d23 == False"/>
+                            <field name="d24" widget="float_time" decoration-bg-timetable-d="schedule_d24 == 'D'" decoration-bg-timetable-w="schedule_d24 == 'W'" decoration-bg-timetable-f="schedule_d24 == False"/>
+                            <field name="d25" widget="float_time" decoration-bg-timetable-d="schedule_d25 == 'D'" decoration-bg-timetable-w="schedule_d25 == 'W'" decoration-bg-timetable-f="schedule_d25 == False"/>
+                            <field name="d26" widget="float_time" decoration-bg-timetable-d="schedule_d26 == 'D'" decoration-bg-timetable-w="schedule_d26 == 'W'" decoration-bg-timetable-f="schedule_d26 == False"/>
+                            <field name="d27" widget="float_time" decoration-bg-timetable-d="schedule_d27 == 'D'" decoration-bg-timetable-w="schedule_d27 == 'W'" decoration-bg-timetable-f="schedule_d27 == False"/>
+                            <field name="d28" widget="float_time" decoration-bg-timetable-d="schedule_d28 == 'D'" decoration-bg-timetable-w="schedule_d28 == 'W'" decoration-bg-timetable-f="schedule_d28 == False"/>
+                            <field name="d29" widget="float_time" decoration-bg-timetable-d="schedule_d29 == 'D'" decoration-bg-timetable-w="schedule_d29 == 'W'" decoration-bg-timetable-f="schedule_d29 == False"/>
+                            <field name="d30" widget="float_time" decoration-bg-timetable-d="schedule_d30 == 'D'" decoration-bg-timetable-w="schedule_d30 == 'W'" decoration-bg-timetable-f="schedule_d30 == False"/>
+                            <field name="d31" widget="float_time" decoration-bg-timetable-d="schedule_d31 == 'D'" decoration-bg-timetable-w="schedule_d31 == 'W'" decoration-bg-timetable-f="schedule_d31 == False"/>
                         </tree>
                     </field>
                 </page>
